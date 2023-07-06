@@ -1,3 +1,5 @@
 pan
 galletas
-naranja
+mandarinas
+pera
+banana
