@@ -3,6 +3,7 @@ h1{
     background-color: blue;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
 }
 h2{
     color: blue;
@@ -20,6 +21,9 @@ ul{
     font-weight: bold;
     font-style: italic;
     line-height: 25px;
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 3px solid black
 }
 ol{
     color: red;
@@ -30,4 +34,13 @@ ol{
 img{
     background-color: pink;
     width: 150px;
+}
+.musica {
+    color: black;
+}
+.joystick{
+    color: black;
+}
+.pesa{
+    color: black
 }
