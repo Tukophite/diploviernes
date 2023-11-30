@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        const distanciaInput = parseFloat(prompt("Ingrese la distancia en metros:"));
+        const resultado = medioDeTransporte(distanciaInput);
+        console.log(`Para una distancia de ${distanciaInput} metros, el medio de transporte apropiado es: ${resultado}`);
+        function medioDeTransporte(distancia) {
+       
+        if (distancia <= 1000) {
+            document.write (`para una distancia de ${distanciaInput} metros,el medio de tranporte apropiado es pie`);
+        } else if (distancia <= 10000) {
+            document.write (`para una distancia de ${distanciaInput} metros,el medio de tranporte apropiado es bicicleta`);
+        } else if (distancia <= 30000) {
+            document.write (`para una distancia de ${distanciaInput} metros,el medio de tranporte apropiado es colectivo`);
+        } else if (distancia <= 100000) {
+            document.write (`para una distancia de ${distanciaInput} metros,el medio de tranporte apropiado es auto`);
+        } else {
+            document.write (`para una distancia de ${distanciaInput} metros,el medio de tranporte apropiado es avión`);
+        }
+    }
+
+</script>
+
+
+
+</body>
+</html>

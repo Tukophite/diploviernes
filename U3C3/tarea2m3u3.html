@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const resultado = encontrarMayor();
+    console.log("El número más grande es:", resultado);
+    document.write("El número más grande es:", resultado);
+    function encontrarMayor() {
+        // Solicitar al usuario que ingrese los números separados por comas
+        const input = prompt("Ingrese los números separados por comas:");
+        
+        // Convertir la cadena de entrada a un array de números
+        const arrayDeNumeros = input.split(',').map(Number);
+      
+        // Verificar si el array está vacío
+        if (arrayDeNumeros.length === 0 || arrayDeNumeros.some(isNaN)) {
+          document.write ("Entrada inválida. Asegúrese de ingresar números separados por comas.");
+        }
+      
+        // Inicializar la variable para almacenar el número más grande
+        let mayor = arrayDeNumeros[0];
+      
+        // Iterar sobre el array para encontrar el número más grande
+        for (let i = 1; i < arrayDeNumeros.length; i++) {
+          if (arrayDeNumeros[i] > mayor) {
+            mayor = arrayDeNumeros[i];
+          }
+        }
+      
+        // Devolver el número más grande
+        return mayor;
+      }
+      
+    
+     
+     
+    </script>
+
+
+</body>
+</html>
