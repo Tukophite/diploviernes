@@ -1,0 +1,17 @@
+.contenedor{
+	background-color: blue;
+    height: 700px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.item{
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+		}        

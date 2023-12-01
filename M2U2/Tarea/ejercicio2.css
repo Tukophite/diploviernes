@@ -1,0 +1,20 @@
+.contenedor{
+	background-color: blue;
+    height: 700px;
+	display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item{
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+		}

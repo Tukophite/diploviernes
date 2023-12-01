@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tarea bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Tarea bootstrap</h1>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Iniciar sesion</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Asistencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Como registrarse</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Usuario</label>
+        <input type="text" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Ubicacion</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Ej la rioja 1300">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Lote</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Piso o numero de casa">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Provincia</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Departamento</label>
+        <select id="inputState" class="form-select">
+          <option selected>Ej: yerba Buena</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+           Recordarme
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-dark">Entrar</button>
+      </div>
+    </form>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://media.istockphoto.com/id/1341607980/es/foto/familia-en-casa.jpg?s=612x612&w=0&k=20&c=mCtqUAtRH_in5WwAs_s8l8wneUsrHfVqtvAVc2vBbBE=" class="d-block w-100" alt="..." height="600" width="400">
+        </div>
+        <div class="carousel-item">
+          <img src="https://previews.123rf.com/images/deklofenak/deklofenak1206/deklofenak120600116/14111768-las-familias-felices-con-los-ni%C3%B1os-sobre-un-fondo-blanco.jpg" class="d-block w-100" alt="..." height="600" width="400">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.hola.com/images/026b-12a6a9db88f0-e6f3f408ec05-1000/horizontal-1200/una-familia-feliz-en-casa-sonriendo-.jpg" class="d-block w-100" alt="..." height="600" width="400">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

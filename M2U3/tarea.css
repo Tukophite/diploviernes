@@ -1,0 +1,36 @@
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+    border: 1px solid black;
+}
+nav {
+	background: #CC3910;
+	width: 800px;
+    height: 100px;
+    line-height: 25px;
+    border: 1px solid black;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	width: 800px;
+    height: 150px;
+    border: 1px solid black;
+}
+aside {
+	background: #CCC59E;
+	width: 800px;
+    height: 150px;
+    border: 1px solid black;
+}
