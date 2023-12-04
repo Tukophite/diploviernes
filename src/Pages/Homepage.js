@@ -9,8 +9,8 @@ const HomePage = (props) => {
             </div>
             <div className="columnas"></div>
                 <div className="bienvenidos">
-                    <h2>Bienvenidos</h2>
-                    <p>Lorem</p>
+                    <h2>Bienvenidos a Noticias Gaming</h2>
+                    <p>En este blog se suben contenidos sobre noticias de: Videojuegos, E-Sports y Novedades sobre el Gaming </p>
                     <p>Lorem</p>
                     </div>
                     <div className="testimonios"></div>

@@ -1,7 +1,7 @@
 const Footer = (props) => {
     return (
         <footer>
-            <p>Derechos reservados. Transportes X año 2023</p>
+            <p>Derechos reservados. Noticias Gaming &copy;2023</p>
         </footer>
     );
 }

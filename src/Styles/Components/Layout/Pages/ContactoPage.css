@@ -61,3 +61,14 @@
 .formulario input[type=submit]:hover {
     background-color: #2e64a1;
 }
+
+/* Button.css */
+.mi-boton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
