@@ -23,8 +23,7 @@ const ContactoPage = (props) => {
                         <label for="mensaje">Mensaje</label>
                         <input type="text" name="" />
                     </p>
-                    <p class="acciones"><input type="sumbit" value="Enviar" />
-                    </p>
+                    <button>Enviar</button>
                 </form>
             </div>
             <div class="datos">
@@ -32,10 +31,10 @@ const ContactoPage = (props) => {
                 <p>También puede contactase con nosotros usnado los siguientes medios</p>
                 <ul>
                     <li>Telefono: 3815801228</li>
-                    <li>Email: contacto@Transportesx.com.ar</li>
-                    <li>Facebook:</li>
-                    <li>X:</li>
-                    <li>Skype:</li>
+                    <li>Email: contacto@NoticiasGaming.com.ar</li>
+                    <li>Facebook:NoticiasGaming</li>
+                    <li>X:NoticiasGaming</li>
+                    <li>Skype:NoticiasGaming@outlook.com</li>
                 </ul>
             </div>
         </main>

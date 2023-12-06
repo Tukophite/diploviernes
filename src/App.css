@@ -21,8 +21,11 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: #3e3e9d;
   padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 header h1 {
@@ -64,14 +67,50 @@ nav ul li a:hover {
 
 footer {
   background-color: #ccc;
-
   clear: both;
   color: #333;
   text-align: center;
   padding: 5px 0;
-
   margin-top: 20px;
 }
 nav ul li a.activo {
   background-color: #4c76ac;
 }
+
+.login a.active {
+  color: red;
+}
+
+.reset{
+  align-items: flex-end; 
+}
+
+.usuario{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 20vh; 
+  margin: 0;
+}
+
+.input{
+  display: block;
+  margin-bottom: 10px;
+
+}
+.register{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 20vh; 
+  margin: 0;
+}
+
+.button{
+  background-color: #3498db; /* Color de fondo del botón (puedes usar un color en hexadecimal, rgb, o nombres de colores) */
+  color: #fff; /* Color del texto del botón (generalmente blanco para un fondo oscuro) */
+   padding: 10px 20px; /* Ajusta el relleno para un mejor aspecto visual */
+  border: 1px; /* Elimina el borde por defecto del botón */
+  border-radius: 30px; /* Añade bordes redondeados al botón */
+}
+
