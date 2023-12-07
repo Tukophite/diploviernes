@@ -87,7 +87,7 @@ nav ul li a.activo {
 
 .usuario{
   text-align: center;
-  display: flex;
+  display: table;
   align-items: center;
   height: 20vh; 
   margin: 0;
@@ -100,7 +100,7 @@ nav ul li a.activo {
 }
 .register{
   text-align: center;
-  display: flex;
+  display: table;
   align-items: center;
   height: 20vh; 
   margin: 0;
@@ -114,3 +114,7 @@ nav ul li a.activo {
   border-radius: 30px; /* Añade bordes redondeados al botón */
 }
 
+.resetp{
+  display: flex;
+  margin-top: 10px;
+}

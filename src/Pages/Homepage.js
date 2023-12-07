@@ -10,16 +10,10 @@ const HomePage = (props) => {
             <div className="columnas"></div>
                 <div className="bienvenidos">
                     <h2>Bienvenidos a Noticias Gaming</h2>
-                    <h3>En este blog se suben contenidos sobre noticias de: Videojuegos, E-Sports y Novedades sobre el Gaming </h3>
-                    <p>Recapitulamos informacion y noticias tanto nacionales como internacionale, manejandonos en el mundo de gaming, E-sports, noticias en launchers como steam, Epic Games, Riot Games, Ubisoft o el gaming pass de Xbox,</p>
-                    <p>Tambien buscamos informaciones para ayudar a la gente a tener upgrades de pcs, ya sea en ofertas por MarketPlace de Facebook o de Mercado Libre</p>
-                    </div>
-                    <div className="testimonios"></div>
-                        <h2>Testimonios</h2>
-                        <div className="testimonio"></div>
-                            <span class="cita" > Simplemente Exclente </span>
-                            <span class="autor"> Juan Perez - zapatos.com </span>
-                                
+                    <h3>¡Tu fuente definitiva para estar al tanto de las últimas novedades en el apasionante universo del gaming! En este blog, nos sumergimos en el vertiginoso mundo de los videojuegos, explorando tanto los emocionantes eventos nacionales como las intrigantes noticias internacionales que dan forma a la industria.</h3>
+                    <p>Aquí, no solo te mantenemos informado sobre los juegos más emocionantes y las tendencias del momento, sino que también te ofrecemos un vistazo exclusivo a los E-sports, donde los profesionales se enfrentan en competiciones épicas. Pero eso no es todo; nos adentramos en el fascinante universo de los launchers más destacados, como Steam, Epic Games, Riot Games, Ubisoft y el gaming pass de Xbox.</p>
+                    <p>¿Listo para sumergirte en el corazón palpitante de la escena gamer? Únete a nosotros mientras recapitulamos, analizamos y compartimos las historias más emocionantes que dan forma al presente y futuro de la industria del gaming. ¡Prepárate para vivir la experiencia "Noticias Gaming" al máximo!</p>
+                    </div>                           
         </main>
     );
 }

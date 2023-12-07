@@ -22,7 +22,7 @@ const ResetPassword = () => {
         <label>Correo Electrónico:</label>
         <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
       </div>
-      <button type="submit">Restablecer Contraseña</button>
+      <button className="resetp" type="submit">Restablecer Contraseña</button>
     </form>
   );
 };

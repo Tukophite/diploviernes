@@ -32,7 +32,7 @@ const Register = () => {
         </div>
         <div>
           <label>Contraseña:</label>
-          <input className='input' type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          <input className='input' type="password" required value={password} onChange={(e) => setPassword(e.target.value)} />
         </div>
         <button type="submit">Registrarse</button>
         </div>

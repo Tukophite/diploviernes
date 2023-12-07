@@ -8,7 +8,7 @@ const ContactoPage = (props) => {
                 <h2>Contacto rapido</h2>
                 <form action="" method="" className="formulario">
                     <p>
-                        <label for="nombre">nombre</label>
+                        <label for="nombre">Nombre</label>
                         <input type="text" name="" />
                     </p>
                     <p>

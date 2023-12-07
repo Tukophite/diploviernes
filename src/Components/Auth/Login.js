@@ -2,8 +2,8 @@ import { NavLink } from 'react-router-dom';
 import React, { useState } from 'react';
 const Login = () => {
 
-    const {username, setUsername} = useState('');
-    const {password, setPassword} = useState('');
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -24,7 +24,7 @@ return (
       <button type="submit">Iniciar Sesión</button>
       </div>
       <div>
-      <NavLink to="/reset-password">Reset Password</NavLink>  
+      <NavLink to="/reset-password">¿Olvidaste Tu Contraseña?</NavLink>  
       </div>
     </form>
   );
